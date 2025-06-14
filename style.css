@@ -15,12 +15,11 @@ body {
 
 .container{
   max-width: 1440px;
-  width: 100%;
   margin: 0 auto;
 }
 
 header{
-  padding: 37px 34px 47px 34px;
+  padding: 37px 84px 47px 84px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,8 +28,6 @@ header{
 }
 .logo img{ 
   height: 49px;
-  margin-right: 57px;
-  vertical-align: text-top;
 }
 
 .logo img{
@@ -57,7 +54,7 @@ header{
   font-weight: 700;
   transition: color 0.3s;
   border-radius: 5px;
-  padding: 8px 32px;
+  padding: 9px 32px;
   transition: 0.3s ease;
 }
 
@@ -298,6 +295,8 @@ h6{
       margin-right: 10px;
     }
 
+    
+
     .highlight {
       color: #F25E5E;
       font-weight: 700;
@@ -327,7 +326,7 @@ h6{
       display: inline-flex;
       align-items: center;
       color: #4CE0D7;
-      font-weight: 6700;
+      font-weight: 700;
       text-decoration: none;
       text-transform: uppercase;
       font-size: 12px;
@@ -390,62 +389,8 @@ h6{
 }
 
 
-.button-2{
-    color:#262626;
-    width: 144px;
-    height: 36px;
-    border-radius: 40px;
-    border: none;
-    font-size: 12px;
-    font-weight: 700;
-    cursor: pointer;
-    padding:10px 40px ;
-}
 
-
-
-
-
-    .btn-contact {
-      background-color: transparent;
-      padding: 10px 20px;
-      border-radius: 20px;
-      color: #000;
-      font-weight: 600;
-      text-decoration: none;
-      border: 2px solid transparent;
-      transition: 0.3s ease;
-    }
-
-    .btn-contact:hover {
-      background-color: #4ef0e4;
-    }
-
- .search-btn {
-  border: none;
-  background-color: transparent;
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-    .search-btn:hover {
-      background-color: #4ef0e4;
-    }
-
-   .search-btn svg {
-  width: 16px;
-  height: 16px;
-  stroke: #000;
-  stroke-width: 2;
-  fill: none;
-}
-
-    /* article */
+    /* 1st article */
 
    .card1 {
       max-width: 1204px;
@@ -487,22 +432,23 @@ h6{
       color: #aaa;
       margin-bottom: 12px;
     }
-
     .author img {
-      width: 32px;
-      height: 32px;
+      width: 65px;
+      height: 50px;
       border-radius: 50%;
-      margin-right: 10px;
+      margin-right: 16px;
+      
     }
 
     .highlight {
       color: #f44336;
-      font-weight: bold;
+      font-weight: 700;
       text-transform: uppercase;
-      font-size: 12px;
+      font-size: 14px;
       position: absolute;
       top: 24px;
       right: 24px;
+      letter-spacing: 24%;
     }
 
     .ori {
@@ -519,54 +465,38 @@ h6{
     }
 
     .read-more {
-      margin-top: 20px;
+      margin-top: 40px;
+      margin-bottom: 38px;
       display: inline-flex;
       align-items: center;
-      color: #00b894;
-      font-weight: 600;
+      color: #4CE0D7;
+      font-weight: 700;
       text-decoration: none;
       text-transform: uppercase;
-      font-size: 14px;
+      font-size: 12px;
+      letter-spacing: 24%;
+      transition: 0.2s;
+      transform-origin: left center;
     }
 
     .read-more::before {
       content: '→';
       margin-right: 8px;
+      width: 22px;
+      height: 14px;
+      
     }
 
-.borderi{
-     border-bottom: 1px solid #BCBCBC;
-     padding-bottom: 217px;
-     padding-left: 83px;
-     margin: auto;
-     width: fit-content;
-     padding-left: 623px;
-     padding-right: 623px;
-}
+    .read-more:hover {
+     transform: scale(1.2);
+    }
+   
+     /* 2nd Article  */
 
-
-
-     .button-2 {
-      background-color: transparent;
-      padding: 10px 20px;
-      border-radius: 20px;
-      color: #000;
-      font-weight: 600;
-      text-decoration: none;
-      border: 2px solid transparent;
-      transition: 0.3s ease;
-     }
-
-     .button-2:hover{
-      background-color: #4ef0e4;
-     }
-
-
-     /* Article 2 */
-
-      .trending-section {
+    .trending-section {
      margin: 87px auto;
      max-width: 1200px;
+     
     }
 
     .trending-title {
@@ -582,7 +512,7 @@ h6{
     }
 
     .card {
-        height: 550px;
+      height: 550px;
       background-color: white;
       border-radius: 20px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
@@ -590,12 +520,12 @@ h6{
       overflow: hidden;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      
     }
 
     .card img {
       width: 100%;
-      height: auto;
+      height: 278px;
       border-radius: 15px 15px 0 0;
     }
 
@@ -616,8 +546,9 @@ h6{
     }
 
     .card-content {
-        margin-block-end: auto;
+      margin-block-end: auto;
       padding: 20px;
+      
     }
 
     .card-meta {
@@ -628,10 +559,10 @@ h6{
     }
 
     .card-meta img {
-      width: 30px;
-      height: 30px;
+      width: 65px;
+      height: 50px;
       border-radius: 50%;
-      margin-right: 10px;
+      margin-right: 16px;
     }
 
     .card-meta span {
@@ -646,29 +577,27 @@ h6{
     }
 
     .card-desc {
-      font-size: 14px;
+      font-size: 16px;
       color: #333;
       line-height: 1.5;
-      margin-bottom: 20px;
+      font-weight: 400;
+      
     }
 
-    .read-more {
-      color: #1dd4cf;
-      font-weight: bold;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 13px;
-      transition: 0.7s;
-    }
-
-    .read-more:hover {
-    font-size: 15px;
+    .read-more2{
+      margin-bottom: 42px;
+      margin-top: 32px;
     }
 
 
-    /* Article 3 */
+    /* 3rd Article  */
+
+    .container-5 {
+      max-width: 1440px;
+      width: 100%;
+      margin:  0 auto;
+      padding-left: 118px;
+    }
 
 
     .card2 {
@@ -691,7 +620,7 @@ h6{
 }
 
 .card-image2 img {
-    border-radius: 20px;
+  border-radius: 20px;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -735,7 +664,7 @@ h6{
 .author-left img {
   width: 65px;
   height: 50px;
-  left: 711px;
+  margin-right: 17px;
 
 }
 
@@ -755,20 +684,6 @@ h6{
 
 }
 
-.read-more {
-  color: #00c896;
-  font-weight: bold;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-
-.mexute {
-    margin-left: 118px;
-}
-
 .sataurizevit {
  font-weight: 400;
  font-size: 14px;
@@ -784,7 +699,7 @@ h6{
 
  .footer-container {
   max-width: 1440px;
-  padding: 37px 84px;
+  padding: 87px 84px 37px;
   margin: 0 auto;
   background-color: white;
   border-top-left-radius: 40px;
@@ -793,13 +708,13 @@ h6{
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  gap: 30px;
 }
 
 .footer-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 45px;
 }
 
 .footer-left .footer-logo {
@@ -860,15 +775,20 @@ h6{
   border: none;
   border-top: 1px solid rgba(188, 188, 188, 1);
   margin: 0;
+  padding-bottom: 0;
 }
 
 .footer-bottom {
   display: flex;
   justify-content: flex-start;
+  padding-top: 34px;
+ 
+  
 }
 
 .footer-copy {
   font-size: 14px;
   color: #262626;
   font-weight: 700;
+  
 }
