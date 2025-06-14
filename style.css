@@ -778,3 +778,97 @@ h6{
  height: 21;
 
 }
+
+
+    /* Footer */
+
+ .footer-container {
+  max-width: 1440px;
+  padding: 37px 84px;
+  margin: 0 auto;
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left .footer-logo {
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+}
+
+.lux {
+  color: black;
+  margin-right: 5px;
+}
+
+.ventus {
+  color: teal;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.hangout {
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #262626;
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icons{
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+
+.icons:hover{
+    transform:scale(1.3);
+}
+
+
+.social-icons img {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+}
+
+.footer-line {
+  width: 100%;
+  border: none;
+  border-top: 1px solid rgba(188, 188, 188, 1);
+  margin: 0;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-copy {
+  font-size: 14px;
+  color: #262626;
+  font-weight: 700;
+}
