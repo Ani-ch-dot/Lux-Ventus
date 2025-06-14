@@ -58,6 +58,7 @@ header{
   transition: color 0.3s;
   border-radius: 5px;
   padding: 8px 32px;
+  transition: 0.3s ease;
 }
 
 .main-navigation a:hover{
