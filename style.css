@@ -64,12 +64,12 @@ header{
 }
 
 .search-button{
-  background: none;
+  background-color: #48E0DC;
   border: none;
   padding: 0;
   cursor: pointer;
   transition: color 0.3s;
-  background-color: transparent;
+  border-radius: 40px;
   width: 47px;
   height: 47px;
   display: flex;
@@ -82,7 +82,7 @@ header{
 }
 
 .search-button:hover{
-  background-color: #48E0DC;
+  background-color: #0fccc5;
   width: 47px;
   height: 47px;
   border-radius: 50%;
